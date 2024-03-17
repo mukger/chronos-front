@@ -1,0 +1,38 @@
+.calendar-container{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    transition: 0.5s;
+}
+.calendar-container .up-button{
+    margin: 0px 15px 50px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.calendar-container .up-button button {
+    width: 250px;
+}
+
+.calendar-container .up-button .select-create-user {
+    width: 200px;
+}
+
+.calendar-container .search-container {
+    width: 310px;
+}
+@media only screen and (max-width: 900px) {
+    .calendar-container .up-button{
+        margin: 0px 15px 50px 15px;
+        display: grid;
+        justify-content: center;
+    }
+    .calendar-container .up-button .select-create-user {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .calendar-container .up-button button {
+        margin: auto;
+    }
+    .calendar-container .search-container {
+        width: 270px;
+    }
+}
